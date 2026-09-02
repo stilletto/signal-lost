@@ -1,4 +1,4 @@
-﻿# Signal Lost â€” browser build
+# Signal Lost — browser build
 
 A mobile-first FPV combat drone simulator. Open it here: <https://stilletto.github.io/signal-lost/>
 
@@ -9,4 +9,5 @@ hand-written and any edit will be overwritten by the next publish.
 Click the picture to take the sticks. WASD to fly, mouse to look, SPACE to arm,
 BACKSPACE for a new sortie. First load is about 65 MB.
 
-Third-party assets are CC0, from Quaternius and Poly Haven.
+Third-party assets are from Kenney, Quaternius and Poly Haven; geographic
+features come from OpenStreetMap contributors and NASA SRTM.

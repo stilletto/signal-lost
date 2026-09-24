@@ -2,13 +2,13 @@
 
 A mobile-first FPV combat drone simulator. Open it here: <https://stilletto.github.io/signal-lost/>
 
-Current build: **0.19.0 MVP — airframe and controls update**, source revision
-`7e5aebf` (2026-09-24).
+Current build: **0.20.0 — Albatross terminal approach**, source revision
+`4ae2c52` (2026-09-25).
 This repository holds the compiled WebAssembly build and Android download.
 The source repository remains private; the build can still be inspected just
 as any distributed game can.
 
-[Download Android APK — 58.4 MiB](https://stilletto.github.io/signal-lost/signal-lost.apk?release=7e5aebf)
+[Download Android APK — 58.5 MiB](https://stilletto.github.io/signal-lost/signal-lost.apk?release=4ae2c52)
 
 Android: arm64-v8a, Android 7.0 or later, signed debug build. Package and signing
 certificate match the previous 0.19.0 build, so an in-place update preserves application data.
@@ -18,20 +18,33 @@ File hashes and exact sizes are recorded in `release.json`.
 Click the picture to take the sticks. WASD to fly, mouse to look, SPACE to arm,
 BACKSPACE for a new sortie. Phones use on-screen sticks, flight buttons and the
 AGAIN control on the results screen. Control settings are available from the
-mission menu and during flight. The uncompressed web export is about 79.1 MiB.
+mission menu and during flight. The uncompressed web export is about 79.2 MiB.
 
-The aircraft now has an open frame, separate blades and motors, battery,
-camera and build-specific underside. Its own hull stays out of the live FPV
-lens but remains visible in external views and replays. Mantis uses 2,480
-triangles versus the previous 3,096; the default replay cameras remain distant
-and the blades are not animated yet.
+Choose **OPERATION FAR HORIZON / ДАЛЬНИЙ РУБЕЖ**, then
+**THE LAST MILE / ПОСЛЕДНЯЯ МИЛЯ**. This one-contract preview is unlocked at
+zero rank. Follow the compressed autopilot route on a schematic map, skip if
+desired, then explicitly take control about 650 m from the industrial site.
+The world, battery and deadline wait for that handoff.
 
-Verification: 1,371 automated tests and all 44 smoke scenarios passed. Rendered
-camera tests passed on Mobile and Compatibility. The Web export opened its
-mission menu without browser console warnings/errors. Handheld
-layouts and touch-event paths were checked on desktop. This build has not yet
-been run on a physical Android device; no handset FPS claim is made. The existing
-FIRST LIGHT scene triangle-budget excess remains unchanged by this model update.
+Albatross has a separate, stabilized fixed-wing flight model and a new original
+1,288-triangle model: it banks, glides and cannot hover. On a phone the left
+stick changes speed; the right stick turns and commands climb/dive. The $5
+operator denoiser remains available. The destination adds connected roads,
+roofed buildings and wooded groups, reusing existing textures and assets.
+No new satellite imagery or city dataset is bundled.
+
+Verification: 1,428 automated tests / 47,239 assertions and all 45 smoke scenarios
+passed. A rendered terminal strike completed in 28.3 s, with p95 201 submissions
+and 121,858 visible triangles. These are desktop render-budget figures, not
+handset FPS. Handheld layouts and real touch-event paths were checked on desktop;
+this release has not been tested on a physical Android device.
+
+The web menu, route, handoff and FPV scene were tested. Codex's in-app browser
+refused pointer lock even in a visible tab; mouse capture there remains an open
+limitation, and an external desktop browser was not tested for this release.
+The existing FIRST LIGHT triangle-budget excess and engine teardown warnings
+are not fixed here. This is not the full long-range campaign: additional aircraft,
+urban missions, strategic choices and missile air defence remain future work.
 
 Third-party assets are from Kenney, Quaternius and Poly Haven; geographic
 features come from OpenStreetMap contributors and NASA SRTM.

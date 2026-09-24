@@ -1,16 +1,16 @@
 {
   "version": "0.19.0-mvp",
-  "date": "2026-09-17",
-  "source_commit": "c65feeaee0a1a0f07cb6fe1c6a592c743f133f9e",
+  "date": "2026-09-24",
+  "source_commit": "7e5aebf38036e31e470a417e5650abc8d22b448e",
   "web": {
     "pack": "index.pck",
-    "bytes": 42716584,
-    "sha256": "40a464e027217b41f342ab70ad1a0bbb8059516cc4786982dc4cdd68593341ea"
+    "bytes": 43093880,
+    "sha256": "4f53d2e01fb83ceadd1417dd001736c75141fb9eb86bbec1add30903e3862e7d"
   },
   "android": {
     "file": "signal-lost.apk",
-    "bytes": 61050164,
-    "sha256": "7dde89c52d12aacfceb8213488d0eb9a071e760b5138d81ad01277da19c64d9e",
+    "bytes": 61251573,
+    "sha256": "c0d07e0e78c3daadc2f5dd7182f6be985219fc2e0ea5f59ba9b622c43fda2da9",
     "package": "io.github.stilletto.signallost",
     "version_code": 190,
     "abi": "arm64-v8a",
@@ -18,5 +18,5 @@
     "signing_certificate_sha256": "e101caf19d3d5fd9083fce614876508f669a11a2ea2a61363338c44a06fe8917",
     "physical_device_tested": false
   },
-  "checks": { "tests_passed": 1318, "tests_failed": 0, "smoke_scenarios_passed": 44 }
+  "checks": { "tests_passed": 1371, "tests_failed": 0, "assertions": 45046, "smoke_scenarios_passed": 44, "mobile_camera_raster_passed": 6, "compatibility_camera_raster_passed": 6, "web_menu_booted": true }
 }

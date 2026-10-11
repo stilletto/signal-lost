@@ -1,10 +1,11 @@
 {
-  "version_code": 236,
-  "version_name": "0.24.2-frame-fps",
-  "source_commit": "aad22361c70b50a5ffcecd3e30aa335eb1cce223",
+  "version_code": 237,
+  "version_name": "0.24.3-outdoor-shots-fps",
+  "source_commit": "50a747e3c67151da886fad1ca38beb45783d68df",
   "engine": "4.7.1.stable.official.a13da4feb",
-  "apk_sha256": "8acdccfb91e762b25e40d1be8d25238ed93349e8a435acff1b664314cfcc3cec",
-  "pck_sha256": "46ff53e746218ca5139587a496cb57e596d8148759e3df35222d26b6f7895a91",
+  "apk_sha256": "3982f6f1078afb5603169b1c596088e3468dde610d081844d0e770554021828c",
+  "pck_sha256": "944edb76fc930e47e03f492ed4bae44069434c46b45859ca7dde505c1b733522",
   "web_threads": false,
-  "fps_display": true
+  "fps_display": true,
+  "recorded_outdoor_reports": true
 }

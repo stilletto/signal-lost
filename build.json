@@ -1,0 +1,10 @@
+{
+  "version_code": 235,
+  "version_name": "0.24.1-battlefield-fps",
+  "source_commit": "bf6c76030a2d87f03e63789d0c1f97206f840c63",
+  "engine": "4.7.1.stable.official.a13da4feb",
+  "apk_sha256": "e34ccc3a8469efdd54d8db74bfdd5938e7e145a6ad65b73ab309a1e562d22b95",
+  "pck_sha256": "461200034513280b00f527b086237055641ffe215bd1c9f47defd60bce0cbf87",
+  "web_threads": false,
+  "fps_display": true
+}

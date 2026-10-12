@@ -1,13 +1,20 @@
 {
   "version_code": 238,
   "version_name": "0.24.4-icon-fps",
-  "source_commit": "1ed015ca8972778216a3d91788b6def7c0f790b5",
+  "source_commit": "d355ddcb17970dd76b337febea6db8db1953d792",
   "engine": "4.7.1.stable.official.a13da4feb",
   "apk_sha256": "bc8bea98f178c36dbbd1b00237ad80866b23d7259013ab5962f9c0fe567896c6",
-  "pck_sha256": "af0a9516ed54af350d3ed1ff6ead539d47936cf19b235a1cef6beb4b2df99f5a",
+  "pck_sha256": "673e319f937dfe0fd5152923cb0ccffdfde321e66d1bdb1961acf32bcf24a29a",
   "web_threads": false,
   "fps_display": true,
   "recorded_outdoor_reports": true,
   "project_icon_sha256": "2116885baf15ca374b23dbf9192d31202aed6d6071806fed99d1680b7646fa2c",
-  "web_icon_sha256": "dcc10e923462bf472fba392230cb057c9d0c7b237dc0aadfba78006fb18332c6"
+  "web_icon_sha256": "dcc10e923462bf472fba392230cb057c9d0c7b237dc0aadfba78006fb18332c6",
+  "web_source_commit": "d355ddcb17970dd76b337febea6db8db1953d792",
+  "apk_source_commit": "1ed015ca8972778216a3d91788b6def7c0f790b5",
+  "web_increment": "soil-and-cold-metal",
+  "apk_updated": false,
+  "apk_fps_display": true,
+  "web_fps_display": false,
+  "phone_tested_this_increment": false
 }

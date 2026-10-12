@@ -1,11 +1,13 @@
 {
-  "version_code": 237,
-  "version_name": "0.24.3-outdoor-shots-fps",
-  "source_commit": "50a747e3c67151da886fad1ca38beb45783d68df",
+  "version_code": 238,
+  "version_name": "0.24.4-icon-fps",
+  "source_commit": "1ed015ca8972778216a3d91788b6def7c0f790b5",
   "engine": "4.7.1.stable.official.a13da4feb",
-  "apk_sha256": "3982f6f1078afb5603169b1c596088e3468dde610d081844d0e770554021828c",
-  "pck_sha256": "944edb76fc930e47e03f492ed4bae44069434c46b45859ca7dde505c1b733522",
+  "apk_sha256": "bc8bea98f178c36dbbd1b00237ad80866b23d7259013ab5962f9c0fe567896c6",
+  "pck_sha256": "af0a9516ed54af350d3ed1ff6ead539d47936cf19b235a1cef6beb4b2df99f5a",
   "web_threads": false,
   "fps_display": true,
-  "recorded_outdoor_reports": true
+  "recorded_outdoor_reports": true,
+  "project_icon_sha256": "2116885baf15ca374b23dbf9192d31202aed6d6071806fed99d1680b7646fa2c",
+  "web_icon_sha256": "dcc10e923462bf472fba392230cb057c9d0c7b237dc0aadfba78006fb18332c6"
 }

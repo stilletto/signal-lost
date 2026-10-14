@@ -1,21 +1,21 @@
 {
   "version_code": 239,
   "version_name": "0.24.5-connected-positions-fps",
-  "source_commit": "91eaf5c07ac6af14c85cbceaea1b1ce131ad65be",
-  "web_source_commit": "91eaf5c07ac6af14c85cbceaea1b1ce131ad65be",
+  "source_commit": "ddb7b5899f49dfcdb027119952545a10e40e36c5",
+  "web_source_commit": "ddb7b5899f49dfcdb027119952545a10e40e36c5",
   "apk_source_commit": "91eaf5c07ac6af14c85cbceaea1b1ce131ad65be",
   "engine": "4.7.1.stable.official.a13da4feb",
   "apk_sha256": "d61fabd92d6b5698213847245b8dd246e3d413a0fa46fce1b2b1e1fc42961f5c",
   "heavy_apk_sha256": "ab53541705fe921cb2c8768e16538394a6b2138d19c4fa09c91d92685072675d",
-  "pck_sha256": "2149d0c9b69e9993865ed747f9a420cdbd4e8eab14dce5cc7fd9446012fc854f",
+  "pck_sha256": "ab790232f2ba5308e80d6e858159fa5a7fb51795599fdf1445def0f0aa0bae3c",
   "web_icon_sha256": "dcc10e923462bf472fba392230cb057c9d0c7b237dc0aadfba78006fb18332c6",
   "project_icon_sha256": "2116885baf15ca374b23dbf9192d31202aed6d6071806fed99d1680b7646fa2c",
   "web_threads": false,
   "fps_display": true,
   "apk_fps_display": true,
   "web_fps_display": false,
-  "apk_updated": true,
-  "web_increment": "connected-below-grade-positions",
+  "apk_updated": false,
+  "web_increment": "revetted-trenches",
   "packages": {
     "battlefield": {
       "filename": "signal-lost.apk",
@@ -60,7 +60,7 @@
       ]
     }
   },
-  "source_unit_tests": 1831,
+  "source_unit_tests": 1833,
   "source_smoke_scenarios": 60,
   "source_files_matched_to_gates": 726,
   "web_runtime_checked": true,
@@ -88,7 +88,7 @@
     "mission_id": "the_third_knock",
     "operation_id": "kestrel",
     "pay_scale": 1.0,
-    "peak_altitude": 25.7,
+    "peak_altitude": 24.1,
     "points_scale": 1.0,
     "practice": false,
     "primary_met": true,
@@ -114,5 +114,8 @@
   "phone_tested_this_increment": false,
   "phone_installed_this_increment": false,
   "handset_30_fps_accepted": false,
-  "privacy_sha256": "25dd445fdf0666ee1afab6e31f93e1e26280dc183897dadedda6d3797a4858b6"
+  "privacy_sha256": "25dd445fdf0666ee1afab6e31f93e1e26280dc183897dadedda6d3797a4858b6",
+  "web_unit_gate_tests": 1833,
+  "apk_unit_gate_tests": 1831,
+  "adb_server_restarted_this_increment": true
 }

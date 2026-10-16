@@ -1,13 +1,13 @@
 {
-  "version_code": 243,
-  "version_name": "0.24.9-soldier-carry-fps",
-  "source_commit": "c1483f58c0437cc526c1effe12a9719bdcdb8e5e",
-  "web_source_commit": "c1483f58c0437cc526c1effe12a9719bdcdb8e5e",
-  "apk_source_commit": "c1483f58c0437cc526c1effe12a9719bdcdb8e5e",
+  "version_code": 244,
+  "version_name": "0.24.10-dugout-contact-fps",
+  "source_commit": "c3523b185ae0101bdc63f1c2a56f0f1d19bc87a5",
+  "web_source_commit": "c3523b185ae0101bdc63f1c2a56f0f1d19bc87a5",
+  "apk_source_commit": "c3523b185ae0101bdc63f1c2a56f0f1d19bc87a5",
   "engine": "4.7.1.stable.official.a13da4feb",
-  "apk_sha256": "572d67faafd816a12892e6c8bc06acce8142a3705eb137ea167ab99220a21bee",
-  "heavy_apk_sha256": "4225300bdc76f5cebc160fa25099c11f1a5cd97575cdf87f4f2fede7b4ed64be",
-  "pck_sha256": "66a7f55cc94a2d383abc6bc907dc109169bf86e95d829934fd7671288a026329",
+  "apk_sha256": "d42ed4b79d01f9741940fb45cd7483665a835ba8d1007340130c7c802a10d23d",
+  "heavy_apk_sha256": "ece0dae2ca349af22d1d3546b5ed6fd597e77c46c4dc8c63fa85a4a6194e53b7",
+  "pck_sha256": "6ea858b322e74a9a317df4232a506aa013c10884a6d67a57eabef4d1e5525140",
   "web_icon_sha256": "dcc10e923462bf472fba392230cb057c9d0c7b237dc0aadfba78006fb18332c6",
   "project_icon_sha256": "2116885baf15ca374b23dbf9192d31202aed6d6071806fed99d1680b7646fa2c",
   "web_threads": false,
@@ -15,12 +15,12 @@
   "apk_fps_display": true,
   "web_fps_display": false,
   "apk_updated": true,
-  "web_increment": "shared-soldier-skin-and-two-hand-carry",
+  "web_increment": "readable-goals-and-dugout-contact",
   "packages": {
     "battlefield": {
       "filename": "signal-lost.apk",
-      "sha256": "572d67faafd816a12892e6c8bc06acce8142a3705eb137ea167ab99220a21bee",
-      "bytes": 94462940,
+      "sha256": "d42ed4b79d01f9741940fb45cd7483665a835ba8d1007340130c7c802a10d23d",
+      "bytes": 94467036,
       "package": "io.github.stilletto.signallost",
       "startup_args": [
         "--",
@@ -37,7 +37,7 @@
     },
     "heavy": {
       "filename": "signal-lost-heavy-fps.apk",
-      "sha256": "4225300bdc76f5cebc160fa25099c11f1a5cd97575cdf87f4f2fede7b4ed64be",
+      "sha256": "ece0dae2ca349af22d1d3546b5ed6fd597e77c46c4dc8c63fa85a4a6194e53b7",
       "bytes": 94467036,
       "package": "io.github.stilletto.signallost.fps.heavy",
       "startup_args": [
@@ -60,7 +60,7 @@
       ]
     }
   },
-  "source_unit_tests": 1852,
+  "source_unit_tests": 1854,
   "source_smoke_scenarios": 60,
   "source_files_matched_to_gates": 733,
   "web_runtime_checked": true,

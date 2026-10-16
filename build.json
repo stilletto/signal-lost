@@ -1,13 +1,13 @@
 {
-  "version_code": 244,
-  "version_name": "0.24.10-dugout-contact-fps",
-  "source_commit": "c3523b185ae0101bdc63f1c2a56f0f1d19bc87a5",
-  "web_source_commit": "c3523b185ae0101bdc63f1c2a56f0f1d19bc87a5",
-  "apk_source_commit": "c3523b185ae0101bdc63f1c2a56f0f1d19bc87a5",
+  "version_code": 245,
+  "version_name": "0.24.11-rounded-field-kit-fps",
+  "source_commit": "91733b4ec3e2511ac7f78081ea7ec2aeea470627",
+  "web_source_commit": "91733b4ec3e2511ac7f78081ea7ec2aeea470627",
+  "apk_source_commit": "91733b4ec3e2511ac7f78081ea7ec2aeea470627",
   "engine": "4.7.1.stable.official.a13da4feb",
-  "apk_sha256": "d42ed4b79d01f9741940fb45cd7483665a835ba8d1007340130c7c802a10d23d",
-  "heavy_apk_sha256": "ece0dae2ca349af22d1d3546b5ed6fd597e77c46c4dc8c63fa85a4a6194e53b7",
-  "pck_sha256": "6ea858b322e74a9a317df4232a506aa013c10884a6d67a57eabef4d1e5525140",
+  "apk_sha256": "29649d78d94a778c23e38f43894bd3ed914d3fe3ae3dcb829ca4873777d3c406",
+  "heavy_apk_sha256": "608789b1f205ce8c34f3b911d1f14622f95dbdd73c636792f599a2cbca0fa9a5",
+  "pck_sha256": "e165a6a50e9ec43e4d04fbc51bfeffcda488a91a1ab6fdf47f0efc7da3d3cacc",
   "web_icon_sha256": "dcc10e923462bf472fba392230cb057c9d0c7b237dc0aadfba78006fb18332c6",
   "project_icon_sha256": "2116885baf15ca374b23dbf9192d31202aed6d6071806fed99d1680b7646fa2c",
   "web_threads": false,
@@ -15,11 +15,11 @@
   "apk_fps_display": true,
   "web_fps_display": false,
   "apk_updated": true,
-  "web_increment": "readable-goals-and-dugout-contact",
+  "web_increment": "rounded-helmet-and-dugout-logs",
   "packages": {
     "battlefield": {
       "filename": "signal-lost.apk",
-      "sha256": "d42ed4b79d01f9741940fb45cd7483665a835ba8d1007340130c7c802a10d23d",
+      "sha256": "29649d78d94a778c23e38f43894bd3ed914d3fe3ae3dcb829ca4873777d3c406",
       "bytes": 94467036,
       "package": "io.github.stilletto.signallost",
       "startup_args": [
@@ -37,8 +37,8 @@
     },
     "heavy": {
       "filename": "signal-lost-heavy-fps.apk",
-      "sha256": "ece0dae2ca349af22d1d3546b5ed6fd597e77c46c4dc8c63fa85a4a6194e53b7",
-      "bytes": 94467036,
+      "sha256": "608789b1f205ce8c34f3b911d1f14622f95dbdd73c636792f599a2cbca0fa9a5",
+      "bytes": 94471132,
       "package": "io.github.stilletto.signallost.fps.heavy",
       "startup_args": [
         "--",
@@ -60,9 +60,9 @@
       ]
     }
   },
-  "source_unit_tests": 1854,
+  "source_unit_tests": 1864,
   "source_smoke_scenarios": 60,
-  "source_files_matched_to_gates": 733,
+  "source_files_matched_to_gates": 739,
   "web_runtime_checked": true,
   "web_physical_mission": {
     "airframe_recovered": false,

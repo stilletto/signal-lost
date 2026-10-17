@@ -1,13 +1,13 @@
 {
-  "version_code": 245,
-  "version_name": "0.24.11-rounded-field-kit-fps",
-  "source_commit": "91733b4ec3e2511ac7f78081ea7ec2aeea470627",
-  "web_source_commit": "91733b4ec3e2511ac7f78081ea7ec2aeea470627",
-  "apk_source_commit": "91733b4ec3e2511ac7f78081ea7ec2aeea470627",
+  "version_code": 246,
+  "version_name": "0.24.12-filled-sacks-live-meter",
+  "source_commit": "dbd60a5367e50e481fec7289f2aa3e0844763b3c",
+  "web_source_commit": "dbd60a5367e50e481fec7289f2aa3e0844763b3c",
+  "apk_source_commit": "dbd60a5367e50e481fec7289f2aa3e0844763b3c",
   "engine": "4.7.1.stable.official.a13da4feb",
-  "apk_sha256": "29649d78d94a778c23e38f43894bd3ed914d3fe3ae3dcb829ca4873777d3c406",
-  "heavy_apk_sha256": "608789b1f205ce8c34f3b911d1f14622f95dbdd73c636792f599a2cbca0fa9a5",
-  "pck_sha256": "e165a6a50e9ec43e4d04fbc51bfeffcda488a91a1ab6fdf47f0efc7da3d3cacc",
+  "apk_sha256": "b169841d374217a290f5a0ba2ee58cab5aff50ec1760293ca018c575bb8907e9",
+  "heavy_apk_sha256": "d9e98f1a6d5491e75a6cbb1f768b56f8869042a51a7f5f021950f0b035a65593",
+  "pck_sha256": "a96851388be10a00023e322522e9b6be916734099ef214b75ca8a7ba861e72f9",
   "web_icon_sha256": "dcc10e923462bf472fba392230cb057c9d0c7b237dc0aadfba78006fb18332c6",
   "project_icon_sha256": "2116885baf15ca374b23dbf9192d31202aed6d6071806fed99d1680b7646fa2c",
   "web_threads": false,
@@ -15,12 +15,12 @@
   "apk_fps_display": true,
   "web_fps_display": false,
   "apk_updated": true,
-  "web_increment": "rounded-helmet-and-dugout-logs",
+  "web_increment": "filled-visible-sacks-and-live-frame-meter",
   "packages": {
     "battlefield": {
       "filename": "signal-lost.apk",
-      "sha256": "29649d78d94a778c23e38f43894bd3ed914d3fe3ae3dcb829ca4873777d3c406",
-      "bytes": 94467036,
+      "sha256": "b169841d374217a290f5a0ba2ee58cab5aff50ec1760293ca018c575bb8907e9",
+      "bytes": 94471132,
       "package": "io.github.stilletto.signallost",
       "startup_args": [
         "--",
@@ -37,7 +37,7 @@
     },
     "heavy": {
       "filename": "signal-lost-heavy-fps.apk",
-      "sha256": "608789b1f205ce8c34f3b911d1f14622f95dbdd73c636792f599a2cbca0fa9a5",
+      "sha256": "d9e98f1a6d5491e75a6cbb1f768b56f8869042a51a7f5f021950f0b035a65593",
       "bytes": 94471132,
       "package": "io.github.stilletto.signallost.fps.heavy",
       "startup_args": [
@@ -60,7 +60,7 @@
       ]
     }
   },
-  "source_unit_tests": 1864,
+  "source_unit_tests": 1872,
   "source_smoke_scenarios": 60,
   "source_files_matched_to_gates": 739,
   "web_runtime_checked": true,
@@ -114,5 +114,17 @@
   "phone_tested_this_increment": false,
   "phone_installed_this_increment": false,
   "handset_30_fps_accepted": false,
-  "privacy_sha256": "25dd445fdf0666ee1afab6e31f93e1e26280dc183897dadedda6d3797a4858b6"
+  "privacy_sha256": "25dd445fdf0666ee1afab6e31f93e1e26280dc183897dadedda6d3797a4858b6",
+  "fps_clock": "consecutive-callback-wall",
+  "web_timing_accepted": false,
+  "web_callback_interval_ms": {
+    "max": 1019.3,
+    "p50": 1015.8,
+    "p95": 1017.3
+  },
+  "baseline_web_callback_interval_ms": {
+    "max": 1026.4,
+    "p50": 1014.8,
+    "p95": 1018.1
+  }
 }

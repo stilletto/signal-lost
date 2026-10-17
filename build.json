@@ -1,12 +1,12 @@
 {
-  "version_code": 246,
-  "version_name": "0.24.12-filled-sacks-live-meter",
-  "source_commit": "dbd60a5367e50e481fec7289f2aa3e0844763b3c",
+  "version_code": 247,
+  "version_name": "0.24.13-clear-field-positions",
+  "source_commit": "e3b8b1b91d54ff4647cb88088e67c67c5dd2edcd",
   "web_source_commit": "dbd60a5367e50e481fec7289f2aa3e0844763b3c",
-  "apk_source_commit": "dbd60a5367e50e481fec7289f2aa3e0844763b3c",
+  "apk_source_commit": "e3b8b1b91d54ff4647cb88088e67c67c5dd2edcd",
   "engine": "4.7.1.stable.official.a13da4feb",
-  "apk_sha256": "b169841d374217a290f5a0ba2ee58cab5aff50ec1760293ca018c575bb8907e9",
-  "heavy_apk_sha256": "d9e98f1a6d5491e75a6cbb1f768b56f8869042a51a7f5f021950f0b035a65593",
+  "apk_sha256": "ace5ea90015821be7cdc1d474c18ca0510ca353ebff0a9a42a6e8040bf13b1f6",
+  "heavy_apk_sha256": "85a28bba7d6981fd5444e4081ed93adb298f6516af0d0c559ae9573ddea55fa1",
   "pck_sha256": "a96851388be10a00023e322522e9b6be916734099ef214b75ca8a7ba861e72f9",
   "web_icon_sha256": "dcc10e923462bf472fba392230cb057c9d0c7b237dc0aadfba78006fb18332c6",
   "project_icon_sha256": "2116885baf15ca374b23dbf9192d31202aed6d6071806fed99d1680b7646fa2c",
@@ -19,8 +19,8 @@
   "packages": {
     "battlefield": {
       "filename": "signal-lost.apk",
-      "sha256": "b169841d374217a290f5a0ba2ee58cab5aff50ec1760293ca018c575bb8907e9",
-      "bytes": 94471132,
+      "sha256": "ace5ea90015821be7cdc1d474c18ca0510ca353ebff0a9a42a6e8040bf13b1f6",
+      "bytes": 94467036,
       "package": "io.github.stilletto.signallost",
       "startup_args": [
         "--",
@@ -37,8 +37,8 @@
     },
     "heavy": {
       "filename": "signal-lost-heavy-fps.apk",
-      "sha256": "d9e98f1a6d5491e75a6cbb1f768b56f8869042a51a7f5f021950f0b035a65593",
-      "bytes": 94471132,
+      "sha256": "85a28bba7d6981fd5444e4081ed93adb298f6516af0d0c559ae9573ddea55fa1",
+      "bytes": 94467036,
       "package": "io.github.stilletto.signallost.fps.heavy",
       "startup_args": [
         "--",
@@ -60,10 +60,10 @@
       ]
     }
   },
-  "source_unit_tests": 1872,
+  "source_unit_tests": 1877,
   "source_smoke_scenarios": 60,
   "source_files_matched_to_gates": 739,
-  "web_runtime_checked": true,
+  "web_runtime_checked": false,
   "web_physical_mission": {
     "airframe_recovered": false,
     "bonus_met": true,
@@ -115,6 +115,16 @@
   "phone_installed_this_increment": false,
   "handset_30_fps_accepted": false,
   "privacy_sha256": "25dd445fdf0666ee1afab6e31f93e1e26280dc183897dadedda6d3797a4858b6",
+  "apk_increment": "clear-position-and-foot-support",
+  "web_version_code": 246,
+  "web_version_name": "0.24.12-filled-sacks-live-meter",
+  "apk_version_code": 247,
+  "web_unit_gate_tests": 1872,
+  "apk_unit_gate_tests": 1877,
+  "web_runtime_checked_this_increment": false,
+  "retained_web_runtime_previously_checked": true,
+  "web_updated_this_increment": false,
+  "web_qa_status": "unperformed_tool_initialization_failure",
   "fps_clock": "consecutive-callback-wall",
   "web_timing_accepted": false,
   "web_callback_interval_ms": {

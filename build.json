@@ -1,12 +1,12 @@
 {
-  "version_code": 249,
-  "version_name": "0.24.15-rounded-earthworks",
-  "source_commit": "3ada0a8d4e4c70774fbebbd0c08c34362bf19090",
+  "version_code": 250,
+  "version_name": "0.24.16-night-and-thermal",
+  "source_commit": "7b52442a45ca893ba55b7d8f8bd23eabc4da4dd6",
   "web_source_commit": "dbd60a5367e50e481fec7289f2aa3e0844763b3c",
-  "apk_source_commit": "3ada0a8d4e4c70774fbebbd0c08c34362bf19090",
+  "apk_source_commit": "7b52442a45ca893ba55b7d8f8bd23eabc4da4dd6",
   "engine": "4.7.1.stable.official.a13da4feb",
-  "apk_sha256": "e5f03f029e1e76edcc0470af3d7d87b63fee192bb74e2df8c2bb20dee31d2d6a",
-  "heavy_apk_sha256": "09e469b97b2e01d569e2f946b35e8fa577d6cab3355966dfeb092a74bf65b641",
+  "apk_sha256": "ddac71707b6aaedb1c2e5386259aac3e0ff346e698e9f16afc2984fdbd414b63",
+  "heavy_apk_sha256": "799dd80ddfa1eb79b272a34a5a84ac64a3aadbea947aa53e3b8a2a4ca95ac0dd",
   "pck_sha256": "a96851388be10a00023e322522e9b6be916734099ef214b75ca8a7ba861e72f9",
   "web_icon_sha256": "dcc10e923462bf472fba392230cb057c9d0c7b237dc0aadfba78006fb18332c6",
   "project_icon_sha256": "2116885baf15ca374b23dbf9192d31202aed6d6071806fed99d1680b7646fa2c",
@@ -19,8 +19,8 @@
   "packages": {
     "battlefield": {
       "filename": "signal-lost.apk",
-      "sha256": "e5f03f029e1e76edcc0470af3d7d87b63fee192bb74e2df8c2bb20dee31d2d6a",
-      "bytes": 94471132,
+      "sha256": "ddac71707b6aaedb1c2e5386259aac3e0ff346e698e9f16afc2984fdbd414b63",
+      "bytes": 94475228,
       "package": "io.github.stilletto.signallost",
       "startup_args": [
         "--",
@@ -37,8 +37,8 @@
     },
     "heavy": {
       "filename": "signal-lost-heavy-fps.apk",
-      "sha256": "09e469b97b2e01d569e2f946b35e8fa577d6cab3355966dfeb092a74bf65b641",
-      "bytes": 94471132,
+      "sha256": "799dd80ddfa1eb79b272a34a5a84ac64a3aadbea947aa53e3b8a2a4ca95ac0dd",
+      "bytes": 94475228,
       "package": "io.github.stilletto.signallost.fps.heavy",
       "startup_args": [
         "--",
@@ -60,8 +60,8 @@
       ]
     }
   },
-  "source_unit_tests": 1888,
-  "source_smoke_scenarios": 61,
+  "source_unit_tests": 1894,
+  "source_smoke_scenarios": 62,
   "source_files_matched_to_gates": 740,
   "web_runtime_checked": false,
   "web_physical_mission": {
@@ -115,12 +115,15 @@
   "phone_installed_this_increment": false,
   "handset_30_fps_accepted": false,
   "privacy_sha256": "25dd445fdf0666ee1afab6e31f93e1e26280dc183897dadedda6d3797a4858b6",
-  "apk_increment": "rounded-earthworks-and-planted-stakes",
+  "apk_increment": "night-mantis-and-soft-thermal-marks",
+  "desktop_compatibility_count_functional_complete": true,
+  "desktop_compatibility_count_clean_exit": false,
+  "desktop_compatibility_count_shutdown_diagnostics": "Two 349524-byte GL texture leaks at Utilities destruction; reproduced on current source, retained separately from functional completion.",
   "web_version_code": 246,
   "web_version_name": "0.24.12-filled-sacks-live-meter",
-  "apk_version_code": 249,
+  "apk_version_code": 250,
   "web_unit_gate_tests": 1872,
-  "apk_unit_gate_tests": 1888,
+  "apk_unit_gate_tests": 1894,
   "web_runtime_checked_this_increment": false,
   "retained_web_runtime_previously_checked": true,
   "web_updated_this_increment": false,

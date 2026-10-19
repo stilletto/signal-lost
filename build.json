@@ -1,12 +1,12 @@
 {
-  "version_code": 250,
-  "version_name": "0.24.16-night-and-thermal",
-  "source_commit": "7b52442a45ca893ba55b7d8f8bd23eabc4da4dd6",
+  "version_code": 251,
+  "version_name": "0.24.17-contact-and-fire",
+  "source_commit": "061c212f90b8bdc4eebedf313300cc0495abd2dc",
   "web_source_commit": "dbd60a5367e50e481fec7289f2aa3e0844763b3c",
-  "apk_source_commit": "7b52442a45ca893ba55b7d8f8bd23eabc4da4dd6",
+  "apk_source_commit": "061c212f90b8bdc4eebedf313300cc0495abd2dc",
   "engine": "4.7.1.stable.official.a13da4feb",
-  "apk_sha256": "ddac71707b6aaedb1c2e5386259aac3e0ff346e698e9f16afc2984fdbd414b63",
-  "heavy_apk_sha256": "799dd80ddfa1eb79b272a34a5a84ac64a3aadbea947aa53e3b8a2a4ca95ac0dd",
+  "apk_sha256": "f62606748c203d06925e9ddbfb883fdee4585f0bcf4abbec6a559c5ddde9b2ec",
+  "heavy_apk_sha256": "096f88f8c5c83e1bb77fe6967115ecd5b4824c6657104731321ef7957a96c222",
   "pck_sha256": "a96851388be10a00023e322522e9b6be916734099ef214b75ca8a7ba861e72f9",
   "web_icon_sha256": "dcc10e923462bf472fba392230cb057c9d0c7b237dc0aadfba78006fb18332c6",
   "project_icon_sha256": "2116885baf15ca374b23dbf9192d31202aed6d6071806fed99d1680b7646fa2c",
@@ -19,8 +19,8 @@
   "packages": {
     "battlefield": {
       "filename": "signal-lost.apk",
-      "sha256": "ddac71707b6aaedb1c2e5386259aac3e0ff346e698e9f16afc2984fdbd414b63",
-      "bytes": 94475228,
+      "sha256": "f62606748c203d06925e9ddbfb883fdee4585f0bcf4abbec6a559c5ddde9b2ec",
+      "bytes": 94491612,
       "package": "io.github.stilletto.signallost",
       "startup_args": [
         "--",
@@ -33,12 +33,14 @@
         "--edge_to_edge",
         "--background_color",
         "#000000"
-      ]
+      ],
+      "source_commit": "061c212f90b8bdc4eebedf313300cc0495abd2dc",
+      "version_code": 251
     },
     "heavy": {
       "filename": "signal-lost-heavy-fps.apk",
-      "sha256": "799dd80ddfa1eb79b272a34a5a84ac64a3aadbea947aa53e3b8a2a4ca95ac0dd",
-      "bytes": 94475228,
+      "sha256": "096f88f8c5c83e1bb77fe6967115ecd5b4824c6657104731321ef7957a96c222",
+      "bytes": 94491612,
       "package": "io.github.stilletto.signallost.fps.heavy",
       "startup_args": [
         "--",
@@ -57,12 +59,14 @@
         "--edge_to_edge",
         "--background_color",
         "#000000"
-      ]
+      ],
+      "source_commit": "061c212f90b8bdc4eebedf313300cc0495abd2dc",
+      "version_code": 251
     }
   },
-  "source_unit_tests": 1894,
+  "source_unit_tests": 1935,
   "source_smoke_scenarios": 62,
-  "source_files_matched_to_gates": 740,
+  "source_files_matched_to_gates": 742,
   "web_runtime_checked": false,
   "web_physical_mission": {
     "airframe_recovered": false,
@@ -115,15 +119,18 @@
   "phone_installed_this_increment": false,
   "handset_30_fps_accepted": false,
   "privacy_sha256": "25dd445fdf0666ee1afab6e31f93e1e26280dc183897dadedda6d3797a4858b6",
-  "apk_increment": "night-mantis-and-soft-thermal-marks",
+  "apk_increment": "slow-nose-contact-live-fire-and-thin-tracers",
   "desktop_compatibility_count_functional_complete": true,
   "desktop_compatibility_count_clean_exit": false,
-  "desktop_compatibility_count_shutdown_diagnostics": "Two 349524-byte GL texture leaks at Utilities destruction; reproduced on current source, retained separately from functional completion.",
+  "desktop_compatibility_count_shutdown_diagnostics": [
+    "ERROR: Texture with GL ID of 44: leaked 349524 bytes.",
+    "ERROR: Texture with GL ID of 45: leaked 349524 bytes."
+  ],
   "web_version_code": 246,
   "web_version_name": "0.24.12-filled-sacks-live-meter",
-  "apk_version_code": 250,
+  "apk_version_code": 251,
   "web_unit_gate_tests": 1872,
-  "apk_unit_gate_tests": 1894,
+  "apk_unit_gate_tests": 1935,
   "web_runtime_checked_this_increment": false,
   "retained_web_runtime_previously_checked": true,
   "web_updated_this_increment": false,
@@ -139,5 +146,102 @@
     "max": 1026.4,
     "p50": 1014.8,
     "p95": 1018.1
-  }
+  },
+  "source_unit_assertions": 77379,
+  "source_gates_reused": true,
+  "desktop_compatibility_heavy_mission": {
+    "airframe_recovered": false,
+    "bonus_met": true,
+    "claimed": 200000.0,
+    "complete": true,
+    "constraint_held": true,
+    "damage_taken": true,
+    "decoys_hit": 0,
+    "destroyed": 1,
+    "drone_cost": 1511.0,
+    "drones_spent": 3,
+    "elapsed": 46.6,
+    "entered_shelter": false,
+    "escaped_target": "",
+    "exchange_ratio": 44.0,
+    "kills": [
+      {
+        "class": "gun_truck",
+        "verdict": 3
+      },
+      {
+        "class": "infantry",
+        "verdict": 3
+      },
+      {
+        "class": "infantry",
+        "verdict": 3
+      },
+      {
+        "class": "infantry",
+        "verdict": 3
+      },
+      {
+        "class": "infantry",
+        "verdict": 3
+      },
+      {
+        "class": "infantry",
+        "verdict": 3
+      },
+      {
+        "class": "infantry",
+        "verdict": 3
+      },
+      {
+        "class": "infantry",
+        "verdict": 3
+      },
+      {
+        "class": "infantry",
+        "verdict": 3
+      },
+      {
+        "class": "infantry",
+        "verdict": 3
+      },
+      {
+        "class": "infantry",
+        "verdict": 3
+      }
+    ],
+    "mission_id": "the_third_knock",
+    "operation_id": "kestrel",
+    "pay_scale": 1.0,
+    "peak_altitude": 26.5,
+    "points_scale": 1.0,
+    "practice": false,
+    "primary_met": false,
+    "required": 2,
+    "reserve_prepaid_spent": 0.0,
+    "reserve_refund": 0.0,
+    "return_depart_m": -1.0,
+    "return_departed": false,
+    "return_distance": -1.0,
+    "return_leg_armed": false,
+    "return_radius": -1.0,
+    "return_required": false,
+    "return_work_met": false,
+    "selection_key": "the_third_knock",
+    "stars": 2,
+    "stores_spent": 0,
+    "strikes": 3,
+    "total_value": 200000.0,
+    "unconfirmed": 0.0,
+    "variant_id": "",
+    "wounded": 0
+  },
+  "desktop_compatibility_heavy_clean_exit": true,
+  "compiled_resource_checks": 9,
+  "compiled_resource_frames_viewed": 10,
+  "source_mobile_frames_reused": 14,
+  "desktop_compiled_mobile_runtime_accepted": false,
+  "desktop_compiled_mobile_limitation": "Shipped ETC2 textures cannot be used directly by this desktop Vulkan driver; the rejected baseline attempt is retained separately.",
+  "apk_growth_bytes": 16384,
+  "source_assets_unchanged": 1522
 }
